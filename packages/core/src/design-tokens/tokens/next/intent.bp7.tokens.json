@@ -4,7 +4,7 @@
         "$description": "Semantic layer: each intent is a palette family exposed as its full 100-1000 ramp (aliases) plus `default` (the .500 base) and `foreground`. Surface/typography reference a step (e.g. {intent.primary.200}) so they land exactly on a palette value and re-theme with the intent.",
         "neutral": {
             "default": { "$value": "{palette.grey.500}" },
-            "foreground": { "$value": "{palette.white.1000}" },
+            "foreground": { "$value": "{palette.black.1000}" },
             "100": { "$value": "{palette.grey.100}" },
             "200": { "$value": "{palette.grey.200}" },
             "300": { "$value": "{palette.grey.300}" },
@@ -46,7 +46,7 @@
         },
         "warning": {
             "default": { "$value": "{palette.orange.500}" },
-            "foreground": { "$value": "{palette.black.1000}" },
+            "foreground": { "$value": "{palette.white.1000}" },
             "100": { "$value": "{palette.orange.100}" },
             "200": { "$value": "{palette.orange.200}" },
             "300": { "$value": "{palette.orange.300}" },
